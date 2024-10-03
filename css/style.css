@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'Cera Pro';
+    src: url(./CeraPro/CeraPro-Mediun.woff) format('woff');
+    font-weight: 400;
+    font-size: normal;
+}
+
+header {
+    width: 838px;
+    margin: 0 auto;
+}
+
+.container {
+    font-family: 'Cera Pro' sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-items {
+    display: inline-flex;
+    align-items: center;
+    border: 5px;
+    padding-right: 37px;
+}
+
+.nav-desc {
+    font-family: 'Cera Pro' sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    text-decoration: none;
+    right: 37px;
+    color: #3d3d3d;
+}
+
+.nav-items p{
+    position: absolute;
+    right: 385px;
+    color: #3D3D3D;
+}
+
+.span {
+    font-family: 'Cera Pro' sans-serif;
+    color: #46A358;
+    font-weight: 700;
+}
+
+.card-container {
+    width: 840px;
+    height: 1190px;
+    top: 640px;
+    left: 480px;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: -813px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card {
+    width: calc(33.333% - 20px);
+    margin-top: 9px;
+}
+
+.card-img {
+    width: 250px;
+    height: 250px;
+    top: 671px;
+    left: 484px;
+    background-color: #FBFBFB;
+}
+
+.rectangle-img {
+    margin-bottom: 12px;
+}
+
+.vector-img {
+    margin-left: 88px;
+}
+
+.vector-price {
+    padding-right: 16px;
+    background-color: #FBFBFB;
+}
+
+.vector-price-2 {
+    padding-right: 16px;
+    background-color: #FBFBFB;
+}
+
+.vector-price-3 {
+    padding-right: 16px;
+    background-color: #FBFBFB;
+}
+
+.frame-price {
+    margin-top: 12px;
+}
+
+.card-desc {
+    font-family: 'Cera Pro' sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #3d3d3d;
+    margin-top: 53px;
+}
+
+.aside-container {
+    display: block;
+    width: 310px;
+    left: 120px;
+    background-color: #FBFBFB;
+}
+
+.footer-btn {
+    display: flex;
+    margin-left: 1317px;
+    padding-bottom: 0px;
+}
+
+.button {
+    font-family: 'Cera Pro' sans-serif;
+    width: 35px;
+    height: 35px;
+    top: 1920px;
+    left: 1105px;
+    border-radius: 6px;
+    margin-right: 14px;
+}
+
+.button-1 {
+    background-color: #46a358;
+    width: 35px;
+    height: 35px;
+    border-radius: 6px;
+    margin-right: 16px;
+}
